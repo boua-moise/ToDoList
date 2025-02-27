@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="toDoList.js" defer></script>
+</head>
+<body>
+    <div class="conteneur">
+        <h1>Mes tâches</h1>
+
+        <form id="ajouterTache">
+            <input type="text" name="ajoutTache" id="ajouttache" placeholder="Ajoutez une tâche" required>
+            <button type="submit" id="boutonAjoutToDo">+</button>
+            <div class="select">
+                <select name="filtre" id="filtre">
+                    <option value="all">Tous</option>
+                    <option value="fait">Complétée</option>
+                    <option value="aFaire">À faire</option>
+                </select>
+            </div>
+        </form>
+        <div id="tacheAjouter">
+            <div id="listeTache">
+                <!--<div class="tache">
+                    <input type="checkbox">je lave mes habits
+                </div>
+
+                <div class="tache">
+                    <input type="checkbox">jhff
+                </div>-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
